@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sakshi Runghe | Data Analyst & MCA Graduate Portfolio</title>
+  <meta name="description" content="Portfolio of Sakshi Runghe - MCA Graduate (GPA 8.95), Data Analyst Intern & Software Engineer specializing in Python, SQL, Power BI, and Data Wrangling.">
+  <meta name="keywords" content="Sakshi Runghe, Data Analyst, Software Engineer, Python, SQL, Power BI, EDA, Churn Modeling, Indore">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;700&family=Outfit:wght@400;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Scroll Progress Indicator -->
+  <div id="scroll-progress"></div>
+
+  <!-- Custom Cursor Glow Trailer -->
+  <div id="cursor-glow"></div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <div class="logo-icon">SR</div>
+        <span>Sakshi<span class="logo-highlight">.Analytics</span></span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="status-badge">
+        <span class="status-dot"></span>
+        <span>Open to Opportunities</span>
+      </div>
+
+      <button class="hamburger" aria-label="Toggle navigation menu">☰</button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Drawer -->
+  <div class="mobile-menu">
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-greeting">
+          <span>👋</span> Hello World, I am
+        </div>
+        <h1 class="hero-title">
+          Sakshi <span class="highlight">Runghe</span>
+        </h1>
+        <div class="typewriter-container">
+          <span id="typewriter-text" class="typewriter-text"></span>
+        </div>
+        <p class="hero-description">
+          MCA graduate (GPA: 8.95) with hands-on data analytics experience across 2 internships and 5 end-to-end projects. Transforming raw unstructured datasets into structured, stakeholder-ready business intelligence using Python, SQL, and Power BI.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">Explore Projects 📊</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch 📩</a>
+          <button id="read-intro-btn" class="btn btn-secondary btn-audio">
+            <span id="audio-icon">🔊</span> <span id="audio-text">Listen to Intro</span>
+          </button>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">8.95</span>
+            <span class="stat-label">MCA GPA</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">2</span>
+            <span class="stat-label">Data Internships</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">End-to-End Projects</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="portrait-wrapper">
+          <img src="assets/sakshi_animated_formal.jpg" alt="Sakshi Runghe Avatar" class="portrait-img">
+        </div>
+
+        <div class="floating-badge badge-1">
+          <span class="badge-icon">⚡</span>
+          <div class="badge-text">
+            <span class="badge-title">SQL & Python</span>
+            <span class="badge-sub">Data Wrangling</span>
+          </div>
+        </div>
+
+        <div class="floating-badge badge-2">
+          <span class="badge-icon">📈</span>
+          <div class="badge-text">
+            <span class="badge-title">Power BI</span>
+            <span class="badge-sub">Interactive Dashboards</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Biography & Value</span>
+        <h2 class="section-title">Turning Raw Data into <span>Business Insights</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>Professional Overview</h3>
+          <p>
+            I am a Data Analyst Intern & MCA Graduate based in Indore, MP. My core strength lies in constructing end-to-end analytical pipelines—moving seamlessly from raw multi-table relational schemas to clean, actionable insights and visual dashboards.
+          </p>
+          <p>
+            Whether uncovering risk patterns in bank loans, analyzing customer churn drivers across 7,000+ subscription records, or optimizing marketplace bidding trends, I focus on delivering stakeholder-ready results that empower data-driven decisions.
+          </p>
+        </div>
+
+        <div class="principles-grid">
+          <div class="principle-item">
+            <div class="principle-icon">🔍</div>
+            <h4 class="principle-title">Exploratory Analysis (EDA)</h4>
+            <p class="principle-desc">Deep statistical inspection using Pandas, NumPy, Seaborn & Matplotlib.</p>
+          </div>
+
+          <div class="principle-item">
+            <div class="principle-icon">🗄️</div>
+            <h4 class="principle-title">Complex SQL Querying</h4>
+            <p class="principle-desc">Multi-table JOINs, subqueries, GROUP BY, aggregations & window functions.</p>
+          </div>
+
+          <div class="principle-item">
+            <div class="principle-icon">📊</div>
+            <h4 class="principle-title">Interactive BI Dashboards</h4>
+            <p class="principle-desc">Multi-page Power BI reports with DAX calculations & drill-through filters.</p>
+          </div>
+
+          <div class="principle-item">
+            <div class="principle-icon">🎯</div>
+            <h4 class="principle-title">Risk & Churn Modeling</h4>
+            <p class="principle-desc">Behavioral segmentation to identify customer attrition & credit risk factors.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Timeline -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Work Track</span>
+        <h2 class="section-title">Internship <span>Experience</span></h2>
+      </div>
+
+      <div class="timeline">
+        <!-- Item 1 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 class="timeline-role">Data Analyst Intern</h3>
+            <div class="timeline-company">Debugshala · Indore, MP</div>
+            <div class="timeline-date">Oct 2025 – Present</div>
+            <ul class="timeline-list">
+              <li>Performed statistical analysis and EDA on real-time business datasets using Python (Pandas, NumPy) and SQL, translating findings into stakeholder-ready reports.</li>
+              <li>Developed interactive Power BI dashboards to visualize KPIs and business intelligence metrics, replacing manual reporting cycles.</li>
+              <li>Wrote complex SQL queries including JOINs, aggregations, and filters to extract and structure data from multi-table relational databases.</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">SQL (MySQL)</span>
+              <span class="tag">Power BI</span>
+              <span class="tag">EDA</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 class="timeline-role">Data Analyst Intern</h3>
+            <div class="timeline-company">Trainity · Virtual</div>
+            <div class="timeline-date">2024 – 2025</div>
+            <ul class="timeline-list">
+              <li>Independently completed 4 structured analytics projects covering data cleaning, EDA, and visualization with full reports and Python notebooks.</li>
+              <li>Applied Python and Excel to real-world datasets, identifying customer behavior patterns and sales trends for decision support.</li>
+              <li>Built Power BI and Excel dashboards consolidating multi-source data into unified visual reports.</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">Excel</span>
+              <span class="tag">Power BI</span>
+              <span class="tag">Python</span>
+              <span class="tag">Data Cleaning</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Grid -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Portfolio Case Studies</span>
+        <h2 class="section-title">Featured <span>Analytics Projects</span></h2>
+      </div>
+
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="sql">SQL Analytics</button>
+        <button class="filter-btn" data-filter="python">Python & EDA</button>
+        <button class="filter-btn" data-filter="powerbi">Power BI</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card" data-category="sql" data-id="loan">
+          <div class="project-img-wrapper">
+            <img src="assets/bank_loan_project.jpg" alt="Bank Loan Risk Analysis" class="project-img">
+          </div>
+          <div class="project-content">
+            <span class="project-date">Mar 2026</span>
+            <h3 class="project-title">Bank Loan Risk Analysis</h3>
+            <p class="project-desc">3-table relational database analysis analyzing loan approval rates (~70%), repayment behavior, and credit score default correlations.</p>
+            <div class="tags">
+              <span class="tag">SQL</span>
+              <span class="tag">MySQL Workbench</span>
+            </div>
+            <div class="project-footer">
+              <span class="view-link">View Details ➔</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card" data-category="python" data-id="churn">
+          <div class="project-img-wrapper">
+            <img src="assets/churn_project.jpg" alt="Customer Churn Analysis" class="project-img">
+          </div>
+          <div class="project-content">
+            <span class="project-date">Feb–Mar 2026</span>
+            <h3 class="project-title">Customer Churn Analysis</h3>
+            <p class="project-desc">EDA on Kaggle dataset (7,043 rows × 21 columns) identifying tenure & contract type as key churn predictors (26.5% baseline churn rate).</p>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">Pandas</span>
+              <span class="tag">Seaborn</span>
+            </div>
+            <div class="project-footer">
+              <span class="view-link">View Details ➔</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card" data-category="sql" data-id="marketplace">
+          <div class="project-img-wrapper">
+            <img src="assets/bank_loan_project.jpg" alt="Freelancer Marketplace Behavior" class="project-img">
+          </div>
+          <div class="project-content">
+            <span class="project-date">Mar 2026</span>
+            <h3 class="project-title">Freelancer Marketplace Behavior</h3>
+            <p class="project-desc">6-table relational schema (200+ records) analyzing bidding trends, contract pricing, and freelancer review ratings.</p>
+            <div class="tags">
+              <span class="tag">SQL</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Excel</span>
+            </div>
+            <div class="project-footer">
+              <span class="view-link">View Details ➔</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card" data-category="powerbi" data-id="gaming">
+          <div class="project-img-wrapper">
+            <img src="assets/churn_project.jpg" alt="Gaming & Mental Health Analysis" class="project-img">
+          </div>
+          <div class="project-content">
+            <span class="project-date">Feb 2026</span>
+            <h3 class="project-title">Gaming & Mental Health Analysis</h3>
+            <p class="project-desc">Power BI dashboard correlating daily playtime, engagement intensity, and psychological stress metrics across user segments.</p>
+            <div class="tags">
+              <span class="tag">Power BI</span>
+              <span class="tag">DAX</span>
+            </div>
+            <div class="project-footer">
+              <span class="view-link">View Details ➔</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card" data-category="powerbi" data-id="footwear">
+          <div class="project-img-wrapper">
+            <img src="assets/bank_loan_project.jpg" alt="Global Footwear Sales Dashboard" class="project-img">
+          </div>
+          <div class="project-content">
+            <span class="project-date">Feb 2026</span>
+            <h3 class="project-title">Global Footwear Sales Dashboard</h3>
+            <p class="project-desc">Multi-page Power BI dashboard evaluating global sports footwear revenue trends, unit profitability, and regional KPIs.</p>
+            <div class="tags">
+              <span class="tag">Power BI</span>
+              <span class="tag">Advanced Excel</span>
+            </div>
+            <div class="project-footer">
+              <span class="view-link">View Details ➔</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Detail Modal -->
+  <div id="project-modal" class="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close">✕</button>
+      <h3 id="modal-title" class="project-title">Project Title</h3>
+      <div id="modal-subtitle" class="project-date" style="margin-bottom: 16px;">Subtitle</div>
+      <p id="modal-desc" class="project-desc" style="margin-bottom: 24px;">Description</p>
+
+      <h4 style="font-size: 1rem; color: var(--purple-secondary); margin-bottom: 12px;">Key Analytical Highlights:</h4>
+      <ul id="modal-highlights" class="timeline-list"></ul>
+    </div>
+  </div>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Technical Competencies</span>
+        <h2 class="section-title">Skills & <span>Tooling Proficiency</span></h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-header">
+            <span class="skill-name">Python (Pandas, NumPy, Seaborn)</span>
+            <span class="skill-percent">90%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-progress" data-width="90%"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-header">
+            <span class="skill-name">SQL (MySQL Workbench)</span>
+            <span class="skill-percent">92%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-progress" data-width="92%"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-header">
+            <span class="skill-name">Power BI (DAX, Reports)</span>
+            <span class="skill-percent">88%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-progress" data-width="88%"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-header">
+            <span class="skill-name">Advanced Excel & PivotTables</span>
+            <span class="skill-percent">85%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-header">
+            <span class="skill-name">Exploratory Data Analysis (EDA)</span>
+            <span class="skill-percent">90%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-progress" data-width="90%"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-header">
+            <span class="skill-name">GitHub & Jupyter Notebooks</span>
+            <span class="skill-percent">88%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-progress" data-width="88%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education & Certifications -->
+  <section id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Academic & Accreditations</span>
+        <h2 class="section-title">Education & <span>Certifications</span></h2>
+      </div>
+
+      <div class="edu-grid">
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+          <h3 style="font-family: var(--font-heading); color: var(--purple-secondary);">Academic Credentials</h3>
+
+          <div class="edu-card">
+            <div class="edu-title">Master of Computer Applications (MCA)</div>
+            <div class="edu-inst">Lakshmi Narain College of Science & Technology, Bhopal</div>
+            <div class="edu-score">GPA: 8.95 | Jun 2025</div>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-title">B.Sc. Computer Science</div>
+            <div class="edu-inst">Shri Shivaji Science College, Nagpur</div>
+            <div class="edu-score">73% | Jul 2023</div>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-title">Higher Secondary (Class XII & X)</div>
+            <div class="edu-inst">Sunflower & Om Sai Public School</div>
+            <div class="edu-score">XII: 87.80% | X: 82.00%</div>
+          </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+          <h3 style="font-family: var(--font-heading); color: var(--cyan-accent);">Professional Certifications</h3>
+
+          <div class="cert-card">
+            <div class="edu-title">Data Analytics & Visualization Job Simulation</div>
+            <div class="edu-inst">Accenture (Forage)</div>
+          </div>
+
+          <div class="cert-card">
+            <div class="edu-title">Excel Skills Job Simulation</div>
+            <div class="edu-inst">JPMorgan Chase & Co. (Forage)</div>
+          </div>
+
+          <div class="cert-card">
+            <div class="edu-title">Career Essentials in Data Analysis</div>
+            <div class="edu-inst">Microsoft & LinkedIn Learning (Jul 2025)</div>
+          </div>
+
+          <div class="cert-card">
+            <div class="edu-title">Data Analytics Virtual Internship Certificate</div>
+            <div class="edu-inst">Trainity · TCS iON Career Edge</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Get In Touch</span>
+        <h2 class="section-title">Let's Connect & <span>Collaborate</span></h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="info-item">
+            <div class="info-icon">📧</div>
+            <div class="info-details">
+              <label>Direct Email</label>
+              <p>sakshi.runghe2002@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">📞</div>
+            <div class="info-details">
+              <label>Phone Number</label>
+              <p>+91-7440322404</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">📍</div>
+            <div class="info-details">
+              <label>Location</label>
+              <p>Indore, MP, India</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">🌐</div>
+            <div class="info-details">
+              <label>Professional Links</label>
+              <p>LinkedIn | GitHub Profile</p>
+            </div>
+          </div>
+        </div>
+
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" class="form-control" placeholder="Enter your full name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" class="form-control" placeholder="name@company.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" class="form-control" rows="5" placeholder="Write your message or inquiry..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send Message 🚀</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Toast Popup -->
+  <div id="toast" class="toast">
+    Message sent successfully! Sakshi will get back to you shortly.
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2026 Sakshi Runghe. Designed & Built with Modern HTML, CSS & JavaScript.</p>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript Engine -->
+  <script src="js/script.js"></script>
+</body>
+</html>
