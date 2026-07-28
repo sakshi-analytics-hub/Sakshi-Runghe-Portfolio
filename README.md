@@ -4,7 +4,7 @@
 
 **Master of Computer Applications (GPA: 8.95) · Data Analyst Intern & Software Engineer**
 
-[Live Web Application](https://portfoliowebsite-sakshirunghe0406.streamlit.app/) • [LinkedIn Profile](https://linkedin.com) • [GitHub Repository](https://github.com/sakshi-analytics-hub/Portfolio_Website)
+[Live Web Application](https://sakshi-runghe-portfolio-0406.streamlit.app/) • [LinkedIn Profile](https://linkedin.com) • [GitHub Repository](https://github.com/sakshi-analytics-hub/Portfolio_Website)
 
 [![Live Streamlit App](https://img.shields.io/badge/Live_Deployment-Streamlit_Cloud-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://portfoliowebsite-sakshirunghe0406.streamlit.app/)
 [![Academic Distinction](https://img.shields.io/badge/MCA_GPA-8.95%2F10.00-8b5cf6?style=for-the-badge&logo=academic&logoColor=white)](https://portfoliowebsite-sakshirunghe0406.streamlit.app/)
